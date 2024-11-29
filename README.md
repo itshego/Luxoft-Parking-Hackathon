@@ -32,6 +32,7 @@ Bu proje, verilen boyutlarda rastgele bir park alanı oluşturan ve en yakın bo
 - Matris oluşturma ve en yakın nokta hesaplama NumPy ile optimize edilmiştir
 - GPU hızlandırmalı çizim için QGraphicsView kullanılmıştır
 - Minimum çizim çağrısı için optimizasyon yapılmıştır
+![v1](https://github.com/user-attachments/assets/65026dd9-a47c-4036-90d4-f6b6a04d8fac)
 
 
 ## 2. Proje Açıklaması

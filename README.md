@@ -24,5 +24,4 @@ Bu proje, otomatik park yeri bulma ve yönlendirme sistemi sunan bir Python uygu
    - 🔵 Mavi: Bulunan en uygun park yeri
 3. Alt kısımda adım adım yönlendirme talimatları görüntülenir
 
-   ![v2](https://github.com/user-attachments/assets/1ab7a517-f2c0-4adb-9989-bef9db379961)
-
+![v2](https://github.com/user-attachments/assets/7ec4d8e5-d457-4063-bd13-d50577f8b6ad)

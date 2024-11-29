@@ -181,6 +181,10 @@ class ParkingLotWindow(QMainWindow):
         """Park alanını oluştur"""
         start_time = time.perf_counter()
         
+        # Yeni boyutları al
+        self.rows = self.rows_spin.value()
+        self.cols = self.cols_spin.value()
+        
         # Toplam hücre sayısı
         total_cells = self.rows * self.cols
         # İstenen dolu hücre sayısı

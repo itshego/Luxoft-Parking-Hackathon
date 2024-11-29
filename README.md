@@ -1,6 +1,37 @@
 # Luxoft-Parking-Hackathon
 
+# 1. Proje Açıklaması
 
+Bu proje, verilen boyutlarda rastgele bir park alanı oluşturan ve en yakın boş park yerini bulan bir görsel uygulamadır.
+
+## Özellikler
+
+- Özelleştirilebilir matris boyutu (1x1 ile 512x512 arası)
+- Ayarlanabilir doluluk oranı (%0-%100)
+- Rastgele başlangıç noktası belirleme
+- Manhattan mesafesine göre en yakın boş park yerini bulma
+- Zoom ve pan özellikleri
+- PyQt5 QGraphicsView kullanılarak grafik kartı ile görselleştirme
+- Performans ölçümü
+
+## Kullanım
+
+1. Matris boyutunu "Boyut" spinbox'larından ayarlayın
+2. Doluluk oranını "Doluluk Oranı" spinbox'ından ayarlayın
+3. "Yeniden Oluştur" butonuna tıklayarak yeni bir park alanı oluşturun
+4. Mouse tekerleği ile zoom yapın
+5. Sağ tıklayıp sürükleyerek pan yapın
+
+## Renkler
+
+- 🟩 Yeşil: Boş park yeri
+- 🟥 Kırmızı: Dolu park yeri
+- 🟦 Mavi: En yakın boş park yeri
+- ⬛ Siyah: Başlangıç noktası
+
+- Matris oluşturma ve en yakın nokta hesaplama NumPy ile optimize edilmiştir
+- GPU hızlandırmalı çizim için QGraphicsView kullanılmıştır
+- Minimum çizim çağrısı için optimizasyon yapılmıştır
 
 
 ## 2. Proje Açıklaması
